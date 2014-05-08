@@ -22,6 +22,11 @@
 		044E9A83191A2F10004D4B9C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044E9A67191A2F10004D4B9C /* CoreData.framework */; };
 		044E9A8B191A2F10004D4B9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 044E9A89191A2F10004D4B9C /* InfoPlist.strings */; };
 		044E9A8D191A2F10004D4B9C /* CoreDataDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044E9A8C191A2F10004D4B9C /* CoreDataDemoTests.m */; };
+		044E9A99191A2F38004D4B9C /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044E9A97191A2F38004D4B9C /* ListViewController.m */; };
+		044E9A9A191A2F38004D4B9C /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044E9A98191A2F38004D4B9C /* ListViewController.xib */; };
+		045CDAEF191A3EE0000FFAA1 /* CoreDataDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 045CDAEE191A3EE0000FFAA1 /* CoreDataDemo.m */; };
+		045CDAF3191A61AD000FFAA1 /* AddEmployeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045CDAF1191A61AD000FFAA1 /* AddEmployeeViewController.m */; };
+		045CDAF4191A61AD000FFAA1 /* AddEmployeeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045CDAF2191A61AD000FFAA1 /* AddEmployeeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,14 @@
 		044E9A88191A2F10004D4B9C /* CoreDataDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataDemoTests-Info.plist"; sourceTree = "<group>"; };
 		044E9A8A191A2F10004D4B9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		044E9A8C191A2F10004D4B9C /* CoreDataDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataDemoTests.m; sourceTree = "<group>"; };
+		044E9A96191A2F38004D4B9C /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		044E9A97191A2F38004D4B9C /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		044E9A98191A2F38004D4B9C /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		045CDAED191A3EE0000FFAA1 /* CoreDataDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataDemo.h; sourceTree = SOURCE_ROOT; };
+		045CDAEE191A3EE0000FFAA1 /* CoreDataDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataDemo.m; sourceTree = SOURCE_ROOT; };
+		045CDAF0191A61AD000FFAA1 /* AddEmployeeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEmployeeViewController.h; sourceTree = "<group>"; };
+		045CDAF1191A61AD000FFAA1 /* AddEmployeeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEmployeeViewController.m; sourceTree = "<group>"; };
+		045CDAF2191A61AD000FFAA1 /* AddEmployeeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddEmployeeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +130,16 @@
 			children = (
 				044E9A72191A2F10004D4B9C /* AppDelegate.h */,
 				044E9A73191A2F10004D4B9C /* AppDelegate.m */,
+				044E9A96191A2F38004D4B9C /* ListViewController.h */,
+				044E9A97191A2F38004D4B9C /* ListViewController.m */,
+				044E9A98191A2F38004D4B9C /* ListViewController.xib */,
+				045CDAF0191A61AD000FFAA1 /* AddEmployeeViewController.h */,
+				045CDAF1191A61AD000FFAA1 /* AddEmployeeViewController.m */,
+				045CDAF2191A61AD000FFAA1 /* AddEmployeeViewController.xib */,
 				044E9A78191A2F10004D4B9C /* Images.xcassets */,
 				044E9A75191A2F10004D4B9C /* CoreDataDemo.xcdatamodeld */,
+				045CDAED191A3EE0000FFAA1 /* CoreDataDemo.h */,
+				045CDAEE191A3EE0000FFAA1 /* CoreDataDemo.m */,
 				044E9A6A191A2F10004D4B9C /* Supporting Files */,
 			);
 			path = CoreDataDemo;
@@ -230,6 +251,8 @@
 			files = (
 				044E9A6E191A2F10004D4B9C /* InfoPlist.strings in Resources */,
 				044E9A79191A2F10004D4B9C /* Images.xcassets in Resources */,
+				045CDAF4191A61AD000FFAA1 /* AddEmployeeViewController.xib in Resources */,
+				044E9A9A191A2F38004D4B9C /* ListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +273,9 @@
 			files = (
 				044E9A74191A2F10004D4B9C /* AppDelegate.m in Sources */,
 				044E9A77191A2F10004D4B9C /* CoreDataDemo.xcdatamodeld in Sources */,
+				045CDAF3191A61AD000FFAA1 /* AddEmployeeViewController.m in Sources */,
+				044E9A99191A2F38004D4B9C /* ListViewController.m in Sources */,
+				045CDAEF191A3EE0000FFAA1 /* CoreDataDemo.m in Sources */,
 				044E9A70191A2F10004D4B9C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,6 +473,7 @@
 				044E9A92191A2F10004D4B9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		044E9A93191A2F10004D4B9C /* Build configuration list for PBXNativeTarget "CoreDataDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +482,7 @@
 				044E9A95191A2F10004D4B9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
